@@ -1,0 +1,32 @@
+[
+{"children": 
+	[
+		{"image": "/images/logo/消防车.png", "child_id": 1, "child_name": "消防车辆", "child_nav_name": "xiaoFangCar"},
+		{"image": "/images/logo/行政车.png", "child_id": 2, "child_name": "行政车辆", "child_nav_name": "xingZhengCar"},
+		{"image": "/images/logo/车牌确认.png", "child_id": 3, "child_name": "车牌申请", "child_nav_name": "chePaiAppli"},
+		{"image": "/images/logo/申请.png", "child_id": 4, "child_name": "下级上报", "child_nav_name": "underCarAppli"},
+		{"image": "/images/logo/车牌档案.png", "child_id": 5, "child_name": "牌照档案", "child_nav_name": "linceFile"},
+		{"image": "/images/logo/方案.png", "child_id": 6, "child_name": "牌照变更", "child_nav_name": "linceChFile"},
+		{"image": "/images/logo/培训机构审核.png", "child_id": 7, "child_name": "车辆年审", "child_nav_name": "revCar"},
+		{"image": "/images/logo/培训机构审核.png", "child_id": 8, "child_name": "主管单位年审", "child_nav_name": "headRev"},
+		{"image": "/images/logo/编配标准.png", "child_id": 9, "child_name": "编配标准", "child_nav_name": "standard"}		
+	],
+"group_id": 1, "group_name": "车辆牌照"},
+{"children": 
+	[
+		{"image": "/images/logo/人员信息.png", "child_id": 1, "child_name": "人员信息", "child_nav_name": "perInfo"}, 
+		{"image": "/images/logo/证件.png", "child_id": 2, "child_name": "驾驶证申请", "child_nav_name": "drivAppli"},
+		{"image": "/images/logo/申请.png", "child_id": 3, "child_name": "下级上报", "child_nav_name": "underDrivAppli"},
+		{"image": "/images/logo/车辆档案.png", "child_id": 4, "child_name": "档案申请", "child_nav_name": "drivFileAppli"},
+		{"image": "/images/logo/培训机构审核.png", "child_id": 5, "child_name": "年审信息", "child_nav_name": "drivRev"},
+		{"image": "/images/logo/方案.png", "child_id": 6, "child_name": "违章记录", "child_nav_name": "vioRecord"}
+	], 
+"group_id": 2, "group_name": "驾驶证"} 
+]
+[
+	{"children": 
+	[
+		{"image": "/images/logo/非消防机构车辆.png", "child_id": 1, "child_name": "非消防机构车辆", "child_nav_name": "outCar"}		
+	],
+"group_id": 1, "group_name": "采集装备信息"}
+]
