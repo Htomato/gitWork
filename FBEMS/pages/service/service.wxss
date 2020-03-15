@@ -74,7 +74,6 @@ page {
   /*每个item设置宽度是33.33%*/
   width: 33.33%;
   height: 80px;
-  margin-left: 40rpx;
   text-align: center;
 }
 
