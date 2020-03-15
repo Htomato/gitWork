@@ -1,10 +1,10 @@
 {
   "pages": [
+    "pages/PM/contacts/contacts",        
     "pages/service/service",
     "pages/index/index",
     "pages/logs/logs",
     "pages/my/my",
-    "pages/PM/contacts/contacts",
     "pages/PM/trainingPlan/trainingPlan",
     "pages/PM/trMan/trMan",
     "pages/PM/EqExpert/EqExpert",
