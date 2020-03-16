@@ -1,2 +1,19 @@
 <!--pages/PM/trainingPlan/trainingPlan.wxml-->
-<text>pages/PM/trainingPlan/trainingPlan.wxml</text>
+<view>
+  <form bindsubmit="formSubmit" bindreset="formReset">
+    <view>
+    <text>方案编号</text>
+    <input type="text" name="number" placeholder="例如：001"></input>
+    <text>培训机构</text>
+    <input type="text" name="name" placeholder="例如：锐顿"></input>
+    <text>培训类别</text>
+    <picker bindchange="pickerChange"  name="selectValue" value="{{index}}"  range="{{objectArray}}" range-key="{{'name'}}">
+      <view>当前选择的是：{{objectArray[index].name}}</view>
+    </picker>
+    </view>
+    <view>
+      <button form-type="reset">清除</button>
+      <button form-type="submit">查询</button>
+    </view>
+  </form>
+</view>

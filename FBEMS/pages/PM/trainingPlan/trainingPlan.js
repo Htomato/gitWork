@@ -5,8 +5,42 @@ Page({
    * 页面的初始数据
    */
   data: {
+    objectArray: [
+      {
+        id: 0,
+        name: '美国'
+      },
+      {
+        id: 1,
+        name: '中国'
+      },
+      {
+        id: 2,
+        name: '巴西'
+      },
+      {
+        id: 3,
+        name: '日本'
+      }
+    ],
+    index: 0
 
   },
+  formSubmit: function (e) {
+    
+    var data = e.detail.value
+    console.log('form发生了submit事件，携带数据为：', data)
+  },
+  formReset: function () {
+    console.log('form发生了reset事件')
+  },
+  pickerChange: function (e) {
+    console.log('picker发送选择改变，携带值为', e.detail.value)
+    this.setData({
+      index: e.detail.value,
+    })
+  },
+
 
   /**
    * 生命周期函数--监听页面加载
